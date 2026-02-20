@@ -1,0 +1,18 @@
+App maker app maker, make me an app.
+Make me a react app called "AI Video Narrator".  I have a .env file in 
+root with keys REACT_APP_OPENAI_API_KEY and REACT_APP_MODEL.
+On the app I want to upload a video.  The app will sample 20 frames
+from the video uniformly across its duration.  I have a txt box "Instructions".
+There is a file public/prompt_narration.txt that takes the Instructions and puts
+it in formatted like {instuctions}.  This is my prompt.  There is a button create narration text when pressed
+sends the imags and prompt to openai, with the model in my .env, and returns a text.
+Display this text in a text box below video.  I can edit this text.  There is a button
+create narration audio when pressed sends the narration text to openai TTS model and
+creates audio file from voice nova.  There is an audio play bare belwo narration box so i can hear
+the audio. Then on a new tab there are two volume level bars for audio of narration file and of video.
+0 to 100.  Adter i slide to the desired levels prss "create video" that merges the ai narratio audio
+with video and i can play it to hear if its ok. if not, i can slide audio levelsand generate
+again.  if im happy, i can downoad the video.  Make this all in one app, no separte backend.
+
+Read this for newest openai api to handle text: https://platform.openai.com/docs/api-reference/responses/get?lang=javascript
+and this for TTS: https://platform.openai.com/docs/api-reference/audio/createSpeech?lang=javascript

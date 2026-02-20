@@ -1,0 +1,24 @@
+You are a voice casting expert. Your task is to select the best AI voice for narrating a video based on the following inputs.
+
+AVAILABLE VOICES AND THEIR DESCRIPTIONS:
+{voice_descriptions}
+
+VIDEO CONTEXT (from sampled frames):
+The video frames have been analyzed and the narration text is provided below.
+
+NARRATION TEXT:
+{narration_text}
+
+NARRATION INSTRUCTIONS:
+{instructions}
+
+PRODUCT SPEC SHEET CONTENT (if available):
+{pdf_content}
+
+Based on all of the above context — the voice descriptions, the visual content of the video frames, the narration instructions, the PDF product information, and the generated narration text — select the single best voice for this narration.
+
+You MUST respond with valid JSON in exactly this format and nothing else:
+{
+  "voice": "voice_name_here",
+  "explanation": "A 2-3 sentence explanation of why this voice was chosen, referencing the specific qualities of the content and how the voice's characteristics match."
+}

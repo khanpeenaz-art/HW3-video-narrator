@@ -1,0 +1,12 @@
+You will be writing a narration for this video.
+GENERAL INSTUCTIONS:
+Your narration should be {num_words} words in length
+to match the video duration.  Return only the text of
+the narration and nothing else.
+
+SPECIFIC INSTRUCTIONS:
+{instructions}
+
+PRODUCT SPEC SHEET INFORMATION:
+{pdf_content}
+
