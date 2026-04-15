@@ -1,6 +1,8 @@
-# AI Video Narrator
+# AutoNarrate: In-Browser AI Video Dubbing
 
-A React app that adds AI-generated narration to your videos. Upload a video, describe how you want it narrated, and the app uses OpenAI to write and speak the script, then mixes it with your video—all in the browser with no backend.
+**Intelligent, Client-Side Video Narration.**
+
+AutoNarrate is an AI-powered React application that autonomously injects dynamic narration into video content. By simply uploading a video and describing the desired tone, the engine samples optimal frames, invokes generative vision models (OpenAI) to craft context-aware scripts, generates high-quality Text-to-Speech audio, and leverages cutting-edge WASM integrations (`ffmpeg.wasm`) to mix and render the final MP4 entirely within the browser—ensuring absolute data privacy and zero server costs.
 
 ## Features
 
